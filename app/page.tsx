@@ -5,6 +5,7 @@ import { CtaSection } from "@/components/cta-section"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ChevronDown } from "lucide-react"
+import Image from "next/image"
 
 export default function HomePage() {
   return (
@@ -30,10 +31,13 @@ export default function HomePage() {
             <div className="flex justify-center">
               <div className="relative">
                 <div className="absolute inset-0 bg-teal-300/20 blur-3xl rounded-full"></div>
-                <img
-                  src="/modern-ai-home-interface.png"
-                  alt="AI-powered home buying assistant"
+                <Image
+                  src="/casapath-home-search.png"
+                  alt="AI-powered home search interface"
+                  width={600}
+                  height={500}
                   className="rounded-2xl shadow-lg max-w-full h-auto relative z-10 transition-transform hover:scale-[1.02] duration-300"
+                  priority
                 />
               </div>
             </div>
