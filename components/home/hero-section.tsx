@@ -25,7 +25,7 @@ export function HeroSection() {
 
           <div className="hidden md:block">
             <img
-              src="/casapath-home-search.png"
+              src="https://254bekwdae51rgxa.public.blob.vercel-storage.com/Casapath%20pro/casapath-home-search-a953Q9MnzGzEljul20D8tm6OUw9aI0.png"
               alt="Casa Path Pro App Interface"
               className="w-full max-w-md mx-auto"
             />
